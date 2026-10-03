@@ -2,12 +2,12 @@ package com.mycompany.ejemplo2;
 
 import java.util.Scanner;
 
-public class Ejemplo2<T, U> {
+public class ED3S6practica1<T, U> {
 
     T num1;
     U num2;
 
-    public Ejemplo2(T num1, U num2) {
+    public ED3S6practica1(T num1, U num2) {
         this.num1 = num1;
         this.num2 = num2;
     }
@@ -128,19 +128,19 @@ public class Ejemplo2<T, U> {
     public static void main(String[] args) {
         // Ejemplo con Enteros
         System.out.println("--- EJEMPLO CON ENTEROS ---");
-        Ejemplo2<Integer, Integer> obj1 = new Ejemplo2<>(5, 3);
+        ED3S6practica1<Integer, Integer> obj1 = new ED3S6practica1<>(5, 3);
         obj1.detecta();
 
         // Ejemplo con Doubles
         System.out.println("\n--- EJEMPLO CON DOUBLES ---");
-        Ejemplo2<Double, Double> obj2 = new Ejemplo2<>(5.5, 3.3);
+        ED3S6practica1<Double, Double> obj2 = new ED3S6practica1<>(5.5, 3.3);
         obj2.detecta();
  System.out.println("\n--- EJEMPLO CON FLOAT ---");
-        Ejemplo2<Float,Float> obj4 = new Ejemplo2<>(5.5f,3.3f);
+        ED3S6practica1<Float,Float> obj4 = new ED3S6practica1<>(5.5f,3.3f);
             obj4.detecta();
         // Ejemplo con Strings
         System.out.println("\n--- EJEMPLO CON STRINGS ---");
-        Ejemplo2<String, String> obj3 = new Ejemplo2<>("hola", "mundo");
+        ED3S6practica1<String, String> obj3 = new ED3S6practica1<>("hola", "mundo");
         obj3.detecta();
     }
 }

@@ -8,7 +8,7 @@ package com.mycompany.practica4;
  *
  * @author Tesoem
  */
-public class Practica4 {
+public class EDejem4 {
 
     public static void main(String[] args) {
         int[] entero = new int[6];

@@ -6,13 +6,13 @@ package com.mycompany.ejemplo2;
 
 
 
-public class Ejemplo3<Q, W> {
+public class ED3S6practica01<Q, W> {
 
     Q palabra1;
     W palabra2;
 
     // Constructor
-    public Ejemplo3(Q palabra1, W palabra2) {
+    public ED3S6practica01(Q palabra1, W palabra2) {
         this.palabra1 = palabra1;
         this.palabra2 = palabra2;
     }
@@ -32,16 +32,16 @@ public class Ejemplo3<Q, W> {
     // Método principal para ejecutar y probar la clase
     public static void main(String[] args) {
         // Creación del objeto y prueba
-        Ejemplo3<String, String> obj3 = new Ejemplo3<>("Hola", "Mundo");
+        ED3S6practica01<String, String> obj3 = new ED3S6practica01<>("Hola", "Mundo");
         obj3.unirPalabras();
         
   
     
-        Ejemplo2<Integer,Integer> obj1 = new Ejemplo2<>(5,3);
+        ED3S6practica1<Integer,Integer> obj1 = new ED3S6practica1<>(5,3);
         obj1.detecta();
-          Ejemplo2<Double,Double> obj2 = new Ejemplo2<>(5.5,3.3);
+          ED3S6practica1<Double,Double> obj2 = new ED3S6practica1<>(5.5,3.3);
             obj2.detecta();
-            Ejemplo2<Float,Float> obj4 = new Ejemplo2<>(5.5f,3.3f);
+            ED3S6practica1<Float,Float> obj4 = new ED3S6practica1<>(5.5f,3.3f);
             obj4.detecta();
        
         //llamoar el metodo para unir

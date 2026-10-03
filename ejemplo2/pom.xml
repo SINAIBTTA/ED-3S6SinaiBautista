@@ -8,7 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>27</maven.compiler.release>
-        <exec.mainClass>com.mycompany.ejemplo2.Ejemplo2</exec.mainClass>
+        <exec.mainClass>com.mycompany.ejemplo2.ED3S6practica1</exec.mainClass>
     </properties>
     <name>3S6-PRACTICA1</name>
 </project>
